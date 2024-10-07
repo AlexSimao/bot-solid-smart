@@ -1,0 +1,21 @@
+{
+  "name": "selenium",
+  "version": "1.0.0",
+  "main": "entrada.js",
+  "scripts": {
+    "entrada": "node --env-file .env entrada.js",
+    "teste": "node --env-file .env ./teste.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "devDependencies": {
+    "chromedriver": "^129.0.0"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "selenium-webdriver": "^4.25.0"
+  }
+}
